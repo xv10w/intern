@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 import { SiteContext, ContextProviderComponent } from '../context/mainContext';
 import { useAuth } from '../context/authContext';
 import DENOMINATION from '../utils/currencyProvider';
-import { FaLongArrowAltLeft } from 'react-icons/fa';
+import { ArrowLeftIcon } from '../components/Icons';
 import Link from 'next/link';
 import Image from '../components/Image';
 import axios from '../utils/axios';
@@ -142,7 +142,7 @@ const Checkout = ({ context }) => {
           <Link href="/cart">
             <a aria-label="Cart">
               <div className="cursor-pointer flex items-center">
-                <span className="mr-2 text-gray-600">{/* @ts-ignore */}<FaLongArrowAltLeft /></span>
+                <span className="mr-2 text-gray-600"><ArrowLeftIcon /></span>
                 <p className="text-gray-600 text-sm">Edit Cart</p>
               </div>
             </a>

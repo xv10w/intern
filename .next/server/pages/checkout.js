@@ -1,6 +1,6 @@
 var R=require("../chunks/ssr/[turbopack]_runtime.js")("server/pages/checkout.js")
 R.c("server/chunks/ssr/[root-of-the-server]__b7051643._.js")
-R.c("server/chunks/ssr/Downloads_skill- ecommerce_3fd2f2f2._.js")
+R.c("server/chunks/ssr/Downloads_skill- ecommerce_frontend_3c49ed31._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__be55e8ff._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__f76551ae._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__d584e615._.js")

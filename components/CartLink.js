@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { ContextProviderComponent, SiteContext } from '../context/mainContext'
-import { FaShoppingCart, FaCircle } from 'react-icons/fa';
+import { ShoppingCartIcon, CircleIcon } from './Icons';
 import Link from "next/link"
 import { colors } from '../theme'
 const { primary } = colors
@@ -19,14 +19,12 @@ function CartLink(props) {
         <div className="flex flex-1 justify-end pr-4 relative">
           <Link href="/cart">
             <a aria-label="Cart">
-              {/* @ts-ignore */}
-              <FaShoppingCart />
+              <ShoppingCartIcon />
             </a>
           </Link>
           {
             renderClientSideComponent && numberOfItemsInCart > Number(0) && (
-              // @ts-ignore
-              <FaCircle color={primary} size={12} />
+              <CircleIcon color={primary} size={12} />
             )
           }
         </div>
