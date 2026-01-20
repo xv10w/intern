@@ -1,0 +1,405 @@
+{
+  "version": 4,
+  "routes": {
+    "/categories": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": null,
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/categories.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/category/new-arrivals": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/category/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/category/new-arrivals.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/category/sofas": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/category/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/category/sofas.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/category/living-room": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/category/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/category/living-room.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/category/on-sale": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/category/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/category/on-sale.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/category/chairs": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/category/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/category/chairs.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": null,
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/index.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/timber-gray-sofa-20": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/product/timber-gray-sofa-20.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/carmel-brown-sofa": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/product/carmel-brown-sofa.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/mod-leather-sofa": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/product/mod-leather-sofa.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/thetis-gray-love-seat": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/product/thetis-gray-love-seat.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/sven-tan-matte": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/product/sven-tan-matte.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/otis-malt-sofa": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/product/otis-malt-sofa.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/ceni-brown-3-seater": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/product/ceni-brown-3-seater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/jameson-jack-lounger": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/product/jameson-jack-lounger.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/galaxy-blue-sofa": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/product/galaxy-blue-sofa.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/markus-green-love-seat": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/product/markus-green-love-seat.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/dabit-matte-black": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/product/dabit-matte-black.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/embrace-blue": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/product/embrace-blue.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/nord-lounger": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/product/nord-lounger.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/ceni-matte-oranve": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/product/ceni-matte-oranve.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/abisko-green-recliner": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/product/abisko-green-recliner.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/denim-on-denim-single": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/product/denim-on-denim-single.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/levo-tan-lounge-chair": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/product/levo-tan-lounge-chair.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/anime-tint-recliner": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/product/anime-tint-recliner.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/josh-jones-red-chair": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/product/josh-jones-red-chair.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/black-sand-lounge": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/product/black-sand-lounge.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/mint-beige-workchair": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/product/[name]",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/product/mint-beige-workchair.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "dynamicRoutes": {
+    "/category/[name]": {
+      "routeRegex": "^/category/([^/]+?)(?:/)?$",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/category/[name].json",
+      "fallback": false,
+      "dataRouteRegex": "^/_next/data/esvUTxw22yPv77uOi7_8p/category/([^/]+?)\\.json$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/product/[name]": {
+      "routeRegex": "^/product/([^/]+?)(?:/)?$",
+      "dataRoute": "/_next/data/esvUTxw22yPv77uOi7_8p/product/[name].json",
+      "fallback": false,
+      "dataRouteRegex": "^/_next/data/esvUTxw22yPv77uOi7_8p/product/([^/]+?)\\.json$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "300e9ea27ea722b2ad2b1e51f9c2f5d2",
+    "previewModeSigningKey": "6edb880b95cf8407670ddf91914ad749f26cb6bc7635872ddd0e5add85429387",
+    "previewModeEncryptionKey": "8129f8413b040cab07fd0d55a380e51d0308870cdddf2ed65880863ff0166697"
+  }
+}

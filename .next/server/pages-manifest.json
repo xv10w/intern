@@ -1,0 +1,15 @@
+{
+  "/": "pages/index.js",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
+  "/admin": "pages/admin.js",
+  "/cart": "pages/cart.js",
+  "/categories": "pages/categories.js",
+  "/category/[name]": "pages/category/[name].js",
+  "/checkout": "pages/checkout.js",
+  "/login": "pages/login.js",
+  "/payment": "pages/payment.js",
+  "/product/[name]": "pages/product/[name].js",
+  "/register": "pages/register.js"
+}
