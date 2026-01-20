@@ -111,7 +111,7 @@ class ViewInventory extends React.Component {
                     </p>
                   </div>
                   <div className="flex items-center m-0 ml-10 text-gray-900 text-s cursor-pointer">
-                    <span onClick={() => this.deleteItem(index)}><FaTimes /></span>
+                    <span onClick={() => this.deleteItem(index)}>{/* @ts-ignore */}<FaTimes /></span>
                     <p role="button" onClick={() => this.editItem(item, index)} className="text-sm ml-10 m-0">Edit</p>
                   </div>
                 </div>

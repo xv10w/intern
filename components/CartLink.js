@@ -19,11 +19,13 @@ function CartLink(props) {
         <div className="flex flex-1 justify-end pr-4 relative">
           <Link href="/cart">
             <a aria-label="Cart">
+              {/* @ts-ignore */}
               <FaShoppingCart />
             </a>
           </Link>
           {
             renderClientSideComponent && numberOfItemsInCart > Number(0) && (
+              // @ts-ignore
               <FaCircle color={primary} size={12} />
             )
           }

@@ -142,7 +142,7 @@ const Checkout = ({ context }) => {
           <Link href="/cart">
             <a aria-label="Cart">
               <div className="cursor-pointer flex items-center">
-                <span className="mr-2 text-gray-600"><FaLongArrowAltLeft /></span>
+                <span className="mr-2 text-gray-600">{/* @ts-ignore */}<FaLongArrowAltLeft /></span>
                 <p className="text-gray-600 text-sm">Edit Cart</p>
               </div>
             </a>

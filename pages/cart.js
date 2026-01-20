@@ -89,6 +89,7 @@ const Cart = ({ context }) => {
                             <div role="button" onClick={() => removeFromCart(item)} className="
                             m-0 ml-10 text-gray-900 text-s cursor-pointer
                             ">
+                              {/* @ts-ignore */}
                               <FaTimes />
                             </div>
                           </div>
@@ -126,6 +127,7 @@ const Cart = ({ context }) => {
                             <div role="button" onClick={() => removeFromCart(item)} className="
                             m-0 ml-10 text-gray-900 text-s cursor-pointer mr-2
                             ">
+                              {/* @ts-ignore */}
                               <FaTimes />
                             </div>
                           </div>
@@ -146,7 +148,7 @@ const Cart = ({ context }) => {
               <a aria-label="Check out">
                 <div className="cursor-pointer flex items-center">
                   <p className="text-gray-600 text-sm mr-2">Proceed to check out</p>
-                  <span className="text-gray-600"><FaLongArrowAltRight /></span>
+                  <span className="text-gray-600">{/* @ts-ignore */}<FaLongArrowAltRight /></span>
                 </div>
               </a>
             </Link>
