@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
-import { TimesIcon, ArrowRightIcon } from '../components/Icons'
+import { FaTimes, FaLongArrowAltRight } from 'react-icons/fa'
 import { SiteContext, ContextProviderComponent } from '../context/mainContext'
 import DENOMINATION from '../utils/currencyProvider'
 import { slugify } from '../utils/helpers'
@@ -89,7 +89,8 @@ const Cart = ({ context }) => {
                             <div role="button" onClick={() => removeFromCart(item)} className="
                             m-0 ml-10 text-gray-900 text-s cursor-pointer
                             ">
-                              <TimesIcon />
+                              {/* @ts-ignore */}
+                              <FaTimes />
                             </div>
                           </div>
 
@@ -126,7 +127,8 @@ const Cart = ({ context }) => {
                             <div role="button" onClick={() => removeFromCart(item)} className="
                             m-0 ml-10 text-gray-900 text-s cursor-pointer mr-2
                             ">
-                              <TimesIcon />
+                              {/* @ts-ignore */}
+                              <FaTimes />
                             </div>
                           </div>
                         </div>
@@ -146,7 +148,7 @@ const Cart = ({ context }) => {
               <a aria-label="Check out">
                 <div className="cursor-pointer flex items-center">
                   <p className="text-gray-600 text-sm mr-2">Proceed to check out</p>
-                  <span className="text-gray-600"><ArrowRightIcon /></span>
+                  <span className="text-gray-600">{/* @ts-ignore */}<FaLongArrowAltRight /></span>
                 </div>
               </a>
             </Link>
