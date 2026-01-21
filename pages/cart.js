@@ -89,8 +89,7 @@ const Cart = ({ context }) => {
                             <div role="button" onClick={() => removeFromCart(item)} className="
                             m-0 ml-10 text-gray-900 text-s cursor-pointer
                             ">
-                              {/* @ts-ignore */}
-                              <FaTimes />
+                              {/* @ts-ignore */}<FaTimes />
                             </div>
                           </div>
 
@@ -127,8 +126,7 @@ const Cart = ({ context }) => {
                             <div role="button" onClick={() => removeFromCart(item)} className="
                             m-0 ml-10 text-gray-900 text-s cursor-pointer mr-2
                             ">
-                              {/* @ts-ignore */}
-                              <FaTimes />
+                              {/* @ts-ignore */}<FaTimes />
                             </div>
                           </div>
                         </div>
