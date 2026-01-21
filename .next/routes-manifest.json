@@ -91,27 +91,27 @@
   "dataRoutes": [
     {
       "page": "/",
-      "dataRouteRegex": "^/_next/data/E47PGCJBzuj4uDQnJFVu_/index\\.json$"
+      "dataRouteRegex": "^/_next/data/7wnvAkxIjHUEYMD0rfLR8/index\\.json$"
     },
     {
       "page": "/categories",
-      "dataRouteRegex": "^/_next/data/E47PGCJBzuj4uDQnJFVu_/categories\\.json$"
+      "dataRouteRegex": "^/_next/data/7wnvAkxIjHUEYMD0rfLR8/categories\\.json$"
     },
     {
       "page": "/category/[name]",
       "routeKeys": {
         "nxtPname": "nxtPname"
       },
-      "dataRouteRegex": "^/_next/data/E47PGCJBzuj4uDQnJFVu_/category/([^/]+?)\\.json$",
-      "namedDataRouteRegex": "^/_next/data/E47PGCJBzuj4uDQnJFVu_/category/(?<nxtPname>[^/]+?)\\.json$"
+      "dataRouteRegex": "^/_next/data/7wnvAkxIjHUEYMD0rfLR8/category/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/7wnvAkxIjHUEYMD0rfLR8/category/(?<nxtPname>[^/]+?)\\.json$"
     },
     {
       "page": "/product/[name]",
       "routeKeys": {
         "nxtPname": "nxtPname"
       },
-      "dataRouteRegex": "^/_next/data/E47PGCJBzuj4uDQnJFVu_/product/([^/]+?)\\.json$",
-      "namedDataRouteRegex": "^/_next/data/E47PGCJBzuj4uDQnJFVu_/product/(?<nxtPname>[^/]+?)\\.json$"
+      "dataRouteRegex": "^/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/(?<nxtPname>[^/]+?)\\.json$"
     }
   ],
   "rsc": {

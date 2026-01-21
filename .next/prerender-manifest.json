@@ -1,10 +1,23 @@
 {
   "version": 4,
   "routes": {
+    "/categories": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": null,
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/categories.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/product/timber-gray-sofa-20": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/product/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/product/timber-gray-sofa-20.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/timber-gray-sofa-20.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -17,7 +30,7 @@
     "/product/carmel-brown-sofa": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/product/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/product/carmel-brown-sofa.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/carmel-brown-sofa.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -30,7 +43,7 @@
     "/product/mod-leather-sofa": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/product/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/product/mod-leather-sofa.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/mod-leather-sofa.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -43,7 +56,7 @@
     "/product/thetis-gray-love-seat": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/product/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/product/thetis-gray-love-seat.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/thetis-gray-love-seat.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -56,7 +69,7 @@
     "/product/sven-tan-matte": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/product/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/product/sven-tan-matte.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/sven-tan-matte.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -69,7 +82,7 @@
     "/product/otis-malt-sofa": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/product/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/product/otis-malt-sofa.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/otis-malt-sofa.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -82,7 +95,7 @@
     "/product/ceni-brown-3-seater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/product/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/product/ceni-brown-3-seater.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/ceni-brown-3-seater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -95,7 +108,7 @@
     "/product/jameson-jack-lounger": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/product/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/product/jameson-jack-lounger.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/jameson-jack-lounger.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -108,7 +121,7 @@
     "/product/galaxy-blue-sofa": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/product/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/product/galaxy-blue-sofa.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/galaxy-blue-sofa.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -121,7 +134,7 @@
     "/product/markus-green-love-seat": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/product/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/product/markus-green-love-seat.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/markus-green-love-seat.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -134,7 +147,7 @@
     "/product/dabit-matte-black": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/product/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/product/dabit-matte-black.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/dabit-matte-black.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -147,7 +160,7 @@
     "/product/embrace-blue": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/product/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/product/embrace-blue.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/embrace-blue.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -160,7 +173,7 @@
     "/product/nord-lounger": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/product/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/product/nord-lounger.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/nord-lounger.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -173,7 +186,7 @@
     "/product/ceni-matte-oranve": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/product/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/product/ceni-matte-oranve.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/ceni-matte-oranve.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -186,7 +199,7 @@
     "/product/abisko-green-recliner": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/product/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/product/abisko-green-recliner.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/abisko-green-recliner.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -199,7 +212,7 @@
     "/product/denim-on-denim-single": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/product/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/product/denim-on-denim-single.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/denim-on-denim-single.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -212,7 +225,7 @@
     "/product/levo-tan-lounge-chair": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/product/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/product/levo-tan-lounge-chair.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/levo-tan-lounge-chair.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -225,7 +238,7 @@
     "/product/anime-tint-recliner": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/product/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/product/anime-tint-recliner.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/anime-tint-recliner.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -238,7 +251,7 @@
     "/product/josh-jones-red-chair": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/product/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/product/josh-jones-red-chair.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/josh-jones-red-chair.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -251,7 +264,7 @@
     "/product/black-sand-lounge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/product/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/product/black-sand-lounge.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/black-sand-lounge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -264,7 +277,7 @@
     "/product/mint-beige-workchair": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/product/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/product/mint-beige-workchair.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/mint-beige-workchair.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -277,7 +290,7 @@
     "/": {
       "initialRevalidateSeconds": false,
       "srcRoute": null,
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/index.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/index.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -290,7 +303,7 @@
     "/category/new-arrivals": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/category/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/category/new-arrivals.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/category/new-arrivals.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -303,7 +316,7 @@
     "/category/sofas": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/category/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/category/sofas.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/category/sofas.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -316,7 +329,7 @@
     "/category/living-room": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/category/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/category/living-room.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/category/living-room.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -329,7 +342,7 @@
     "/category/on-sale": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/category/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/category/on-sale.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/category/on-sale.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -342,20 +355,7 @@
     "/category/chairs": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/category/[name]",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/category/chairs.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/categories": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": null,
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/categories.json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/category/chairs.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -369,9 +369,9 @@
   "dynamicRoutes": {
     "/product/[name]": {
       "routeRegex": "^/product/([^/]+?)(?:/)?$",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/product/[name].json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/[name].json",
       "fallback": false,
-      "dataRouteRegex": "^/_next/data/E47PGCJBzuj4uDQnJFVu_/product/([^/]+?)\\.json$",
+      "dataRouteRegex": "^/_next/data/7wnvAkxIjHUEYMD0rfLR8/product/([^/]+?)\\.json$",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -383,9 +383,9 @@
     },
     "/category/[name]": {
       "routeRegex": "^/category/([^/]+?)(?:/)?$",
-      "dataRoute": "/_next/data/E47PGCJBzuj4uDQnJFVu_/category/[name].json",
+      "dataRoute": "/_next/data/7wnvAkxIjHUEYMD0rfLR8/category/[name].json",
       "fallback": false,
-      "dataRouteRegex": "^/_next/data/E47PGCJBzuj4uDQnJFVu_/category/([^/]+?)\\.json$",
+      "dataRouteRegex": "^/_next/data/7wnvAkxIjHUEYMD0rfLR8/category/([^/]+?)\\.json$",
       "allowHeader": [
         "host",
         "x-matched-path",

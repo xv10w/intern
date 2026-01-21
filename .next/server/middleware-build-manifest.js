@@ -12,12 +12,12 @@ globalThis.__BUILD_MANIFEST = {
     "/_app": [
       "static/chunks/df68b518ff039aa6.js",
       "static/chunks/243af680703da282.js",
-      "static/chunks/e743d426c8137829.js",
+      "static/chunks/1a0446ea247f8545.js",
       "static/chunks/7eb646db5c2e87ce.js",
       "static/chunks/05e1b2891cc5311c.js",
       "static/chunks/108dd34cd911e975.css",
       "static/chunks/91979d290b023509.css",
-      "static/chunks/turbopack-7ee98c60d88fc0cf.js"
+      "static/chunks/turbopack-32b4e892d40fc8ca.js"
     ],
     "/_error": [
       "static/chunks/0d1edb33d71a325b.js",
@@ -28,12 +28,12 @@ globalThis.__BUILD_MANIFEST = {
     ],
     "/admin": [
       "static/chunks/df68b518ff039aa6.js",
-      "static/chunks/e743d426c8137829.js",
+      "static/chunks/1a0446ea247f8545.js",
       "static/chunks/05e1b2891cc5311c.js",
       "static/chunks/bdb7ca019c22660f.js",
       "static/chunks/7eb646db5c2e87ce.js",
       "static/chunks/c63166f1223eb8d4.js",
-      "static/chunks/turbopack-756d983c33598c8c.js"
+      "static/chunks/turbopack-6828ff3662169b10.js"
     ],
     "/cart": [
       "static/chunks/a160e02a288e86d8.js",
@@ -68,28 +68,28 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/df68b518ff039aa6.js",
       "static/chunks/7eb646db5c2e87ce.js",
       "static/chunks/1c38af451d64d9ba.js",
-      "static/chunks/e743d426c8137829.js",
+      "static/chunks/1a0446ea247f8545.js",
       "static/chunks/05e1b2891cc5311c.js",
       "static/chunks/b95983c04b57700b.js",
-      "static/chunks/turbopack-ce7ab1e0bf5e92a9.js"
+      "static/chunks/turbopack-8d35bf3cfcc5114c.js"
     ],
     "/login": [
       "static/chunks/020520a6f01b6b2a.js",
       "static/chunks/df68b518ff039aa6.js",
       "static/chunks/ec2bb3f3770cb65f.js",
       "static/chunks/7eb646db5c2e87ce.js",
-      "static/chunks/e743d426c8137829.js",
+      "static/chunks/1a0446ea247f8545.js",
       "static/chunks/05e1b2891cc5311c.js",
       "static/chunks/3da45588268151a5.js",
-      "static/chunks/turbopack-600bde9488d2a8c8.js"
+      "static/chunks/turbopack-1c8aa0836b06723b.js"
     ],
     "/payment": [
       "static/chunks/abe9dd8380fc5ef0.js",
       "static/chunks/df68b518ff039aa6.js",
       "static/chunks/05e1b2891cc5311c.js",
       "static/chunks/7eb646db5c2e87ce.js",
-      "static/chunks/e743d426c8137829.js",
-      "static/chunks/turbopack-080b2d279fc61628.js"
+      "static/chunks/1a0446ea247f8545.js",
+      "static/chunks/turbopack-3ae95d34bcf1da48.js"
     ],
     "/product/[name]": [
       "static/chunks/dc57ed314c10a6e0.js",
@@ -106,8 +106,8 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/ec2bb3f3770cb65f.js",
       "static/chunks/7eb646db5c2e87ce.js",
       "static/chunks/05e1b2891cc5311c.js",
-      "static/chunks/e743d426c8137829.js",
-      "static/chunks/turbopack-5770ddd797be2e94.js"
+      "static/chunks/1a0446ea247f8545.js",
+      "static/chunks/turbopack-0aea24f9dd2150df.js"
     ]
   },
   "devFiles": [],

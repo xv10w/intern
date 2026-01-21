@@ -1,9 +1,12 @@
 import axios from 'axios';
 
-// Set the base URL for all axios requests
-axios.defaults.baseURL = process.env.NEXT_PUBLIC_API_URL || 'https://intern-b.onrender.com';
+// Create a custom axios instance with configured defaults
+const axiosInstance = axios.create({
+    baseURL: process.env.NEXT_PUBLIC_API_URL || 'https://intern-b.onrender.com',
+    withCredentials: true, // Important for sending cookies
+    headers: {
+        'Content-Type': 'application/json',
+    },
+});
 
-// Enable credentials for cookies
-axios.defaults.withCredentials = true;
-
-export default axios;
+export default axiosInstance;

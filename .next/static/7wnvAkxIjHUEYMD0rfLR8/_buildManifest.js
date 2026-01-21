@@ -6,7 +6,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/8eff871cbb9a1cb4.js"
   ],
   "/admin": [
-    "static/chunks/ccebcb4d5fd0944e.js"
+    "static/chunks/0c4c63e984c7a1ff.js"
   ],
   "/cart": [
     "static/chunks/228cf043800a7e85.js"
@@ -18,19 +18,19 @@ self.__BUILD_MANIFEST = {
     "static/chunks/76b9ee14cbb0b3cf.js"
   ],
   "/checkout": [
-    "static/chunks/f276d45ce21fe58e.js"
+    "static/chunks/2b85763e53d06b1c.js"
   ],
   "/login": [
-    "static/chunks/23985aa734875f9c.js"
+    "static/chunks/a154e2dcf993f7b0.js"
   ],
   "/payment": [
-    "static/chunks/a93fd1ac8e07a5f1.js"
+    "static/chunks/e6f5e54964e5f65d.js"
   ],
   "/product/[name]": [
     "static/chunks/bf983c3e30361f0c.js"
   ],
   "/register": [
-    "static/chunks/6d9a7c2ebec860bc.js"
+    "static/chunks/24cc9700a9183be7.js"
   ],
   "__rewrites": {
     "afterFiles": [],
